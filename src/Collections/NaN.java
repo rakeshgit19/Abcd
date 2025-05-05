@@ -10,7 +10,6 @@ public class NaN
 		System.out.println(0/0.0);
 		
 		
-
 	}
 
 }
