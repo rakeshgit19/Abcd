@@ -14,16 +14,16 @@ public class Find_UniqueCharacter_In_A_String
 		String s = "rrraakkesshp kumar";
 		for (int i = 0; i < s.length(); i++)
 	    {
-	        int flag = 0;
+			int unique = 0;
 	        
 	        for (int j = 0; j < s.length(); j++)
 	        {
 	            if (s.charAt(i) == s.charAt(j) && i != j) 
 	            {
-	                flag = 1;
+	            	unique = 1;
 	            }
 	        }
-	        if (flag == 0)
+	        if (unique == 0)
 	        {
 	        	System.out.print(s.charAt(i));
 	        }
